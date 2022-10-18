@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+padding: 0%;
+margin: 0%;
+
+}
+body{
+
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(./assets/background.jpg);
+    /* width: 1200px;
+    height: 5em; */
+    background-repeat: no-repeat;
+}   
+
+table{
+
+    
+    border-style: solid;
+    border: -0.2vh solid white;
+    padding: -9vh;
+    border-style: groove;
+}
+
+th,td{
+    border-style: solid;
+    border: -0.2vh solid white;
+    padding: 1.5vh;
+    color: white;
+    font-weight: 900;
+    border-style: groove;
+}
+#all{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+   
+    
+
+}
+div{
+
+    padding: 5vh;
+}
+#scoreboard{
+
+    text-align: center;
+    
+}
+#heading1{
+    padding: 1vh;
+    padding-bottom: 2vh;
+}
+#heading2{
+
+    text-shadow: none;
+}
+h1{
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+
+}
+th{
+    background-color: rgb(154, 44, 44);
+}
+
+    
+
+#noOfSixes{
+text-decoration: none;
+}
+    
+#strikeRate{
+    text-decoration: none;
+    }
+
+#batsmanList{
+
+    text-decoration: none;
+}
